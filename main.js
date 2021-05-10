@@ -112,7 +112,7 @@ function car1_down()
 		 uploadcar2();
 	}
 }
-function car1_left()h
+function car1_left()
 {
 	if (car1_x >= 0)
 	{
