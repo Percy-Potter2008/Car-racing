@@ -123,7 +123,7 @@ function car1_left()
 		 uploadcar2();
 	}
 }
-function car1_right
+function car1_right()
 {
 	if (car1_x <= 500)
 	{
