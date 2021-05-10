@@ -169,7 +169,7 @@ function car2_left()
 		 uploadcar2();
 	}
 }
-function car2_right()
+function car2_right(){
 	if (car2_x <= 500)
 	{
 		car2_x = car2_x + 10;
@@ -178,8 +178,4 @@ function car2_right()
 		 uploadcar1();
 		 uploadcar2();
 	}
-if (car1_x > 700)
-{
-	console.log("car1 Won");
-	document.getElementbyId('game_status').innerHTML = "Car 1 Won!!";
 }
